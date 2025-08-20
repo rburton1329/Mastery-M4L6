@@ -1,3 +1,13 @@
+"""
+full shell style script.py
+
+This program demonstrates running Python code in a shell-style script format.
+- It contains multiple sections that run one after another.
+- It shows examples of loops, calculations, and print statements.
+- Each section works like commands typed in a Python shell, but saved in a file.
+Plain-English: It’s a practice file that shows how different Python commands work step by step.
+"""
+
 question 1
 class Restaurant:
     def __init__(self, restaurant_name, cuisine_type):
