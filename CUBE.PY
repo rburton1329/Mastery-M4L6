@@ -1,3 +1,14 @@
+
+"""
+earthquakes.py
+
+This program loads earthquake data and makes a map showing where they happened.
+- It uses matplotlib to plot the locations.
+- The size of each dot matches the earthquake’s strength (magnitude).
+- Bigger earthquakes = bigger dots.
+Plain-English: It shows us, visually, where earthquakes are happening and how strong they are.
+"""
+
 # CUBE.PY
 # Plots the first 5 and first 5000 cubic numbers with a colormap
 
