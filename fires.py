@@ -1,3 +1,13 @@
+"""
+fires.py
+
+This program works with fire and burned-area data by country.
+- It uses pandas to organize the numbers.
+- It totals how much land burned in each country.
+- Then it uses Cartopy to make a world map highlighting burned areas.
+Plain-English: It shows which countries had the most land burned in fires.
+"""
+
 import argparse
 import math
 from typing import List, Tuple, Optional
@@ -87,4 +97,5 @@ def main():
     map_countries(items, out_png=args.out, top=args.top)
 
 if __name__ == "__main__":
+
     main()
