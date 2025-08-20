@@ -1,12 +1,11 @@
-
 """
-earthquakes.py
+cube_plot.py
 
-This program loads earthquake data and makes a map showing where they happened.
-- It uses matplotlib to plot the locations.
-- The size of each dot matches the earthquake’s strength (magnitude).
-- Bigger earthquakes = bigger dots.
-Plain-English: It shows us, visually, where earthquakes are happening and how strong they are.
+This program generates cubic numbers (numbers multiplied by themselves three times).
+- It first makes a chart of the first 5 cubes.
+- Then it makes a larger chart of the first 5,000 cubes.
+- It uses matplotlib to plot these as scatter graphs.
+Plain-English: It shows how cubes grow really fast when numbers get bigger.
 """
 
 # CUBE.PY
